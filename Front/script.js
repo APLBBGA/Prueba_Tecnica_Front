@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
     // Obtener datos de la API
-    const response = await fetch('https://randomuser.me/api/?results=25');
+    const response = await fetch('https://randomuser.me/api/?results=1');
     const data = await response.json();
     const users = data.results;
 
